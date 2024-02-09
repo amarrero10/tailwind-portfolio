@@ -9,7 +9,7 @@ import {
   LinkedInIcon,
   XIcon,
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/portrait.jpg'
+import portraitImage from '@/images/portrait.jpeg'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -39,7 +39,7 @@ function MailIcon(props) {
 export const metadata = {
   title: 'About',
   description:
-    'I’m Spencer Sharp. I live in New York City, where I design the future.',
+    'I’m Albert. As a software engineer, I create dynamic digital experiences through innovative solutions and seamless design.',
 }
 
 export default function About() {
@@ -58,58 +58,66 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            I’m Spencer Sharp. I live in New York City, where I design the
-            future.
+            I&apos;m Albert a Software Developer. I create dynamic digital
+            experiences .
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I’ve loved making things for as long as I can remember, and wrote
-              my first program when I was 6 years old, just two weeks after my
-              mom brought home the brand new Macintosh LC 550 that I taught
-              myself to type on.
+              Hi there! My coding adventure began during the pandemic, just to
+              fill the time. To my surprise, it turned into a full-blown
+              passion! There&apos;s a certain joy in creating something from
+              scratch and tackling challenging problems. As a self-taught
+              developer, I owe a lot to the open-source community and a
+              year-long coding bootcamp. I&apos;m always on the lookout for new
+              opportunities to learn and level up!
             </p>
             <p>
-              The only thing I loved more than computers as a kid was space.
-              When I was 8, I climbed the 40-foot oak tree at the back of our
-              yard while wearing my older sister’s motorcycle helmet, counted
-              down from three, and jumped — hoping the tree was tall enough that
-              with just a bit of momentum I’d be able to get to orbit.
+              I&apos;m most excited about frontend work, crafting user
+              experiences that are both accessible and inclusive. I stay
+              up-to-date with the latest web tech and best practices. Lately,
+              I&apos;ve been diving into the world of design, using Figma to
+              bring my own creative touch to projects. It&apos;s been a blast!
             </p>
+
             <p>
-              I spent the next few summers indoors working on a rocket design,
-              while I recovered from the multiple surgeries it took to fix my
-              badly broken legs. It took nine iterations, but when I was 15 I
-              sent my dad’s Blackberry into orbit and was able to transmit a
-              photo back down to our family computer from space.
-            </p>
-            <p>
-              Today, I’m the founder of Planetaria, where we’re working on
-              civilian space suits and manned shuttle kits you can assemble at
-              home so that the next generation of kids really <em>can</em> make
-              it to orbit — from the comfort of their own backyards.
+              Currently, I&apos;m rocking the role of a Full Stack Developer at
+              Xonar Technology, a fantastic startup. I get to contribute to
+              building and maintaining the company&apos;s web app. Our tech
+              stack includes React, Redux, and MaterialUI on the frontend, and
+              Python, FastAPI, and GraphQL on the backend. On the side, I&apos;m
+              a freelance developer, crafting websites for small businesses and
+              personal projects.
             </p>
           </div>
         </div>
         <div className="lg:pl-20">
           <ul role="list">
-            <SocialLink href="#" icon={XIcon}>
+            {/* <SocialLink href="#" icon={XIcon}>
               Follow on X
             </SocialLink>
             <SocialLink href="#" icon={InstagramIcon} className="mt-4">
               Follow on Instagram
-            </SocialLink>
-            <SocialLink href="#" icon={GitHubIcon} className="mt-4">
+            </SocialLink> */}
+            <SocialLink
+              href="https://github.com/amarrero10"
+              icon={GitHubIcon}
+              className="mt-4"
+            >
               Follow on GitHub
             </SocialLink>
-            <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
+            <SocialLink
+              href="https://www.linkedin.com/in/albert-marrero-dev/"
+              icon={LinkedInIcon}
+              className="mt-4"
+            >
               Follow on LinkedIn
             </SocialLink>
             <SocialLink
-              href="mailto:spencer@planetaria.tech"
+              href="mailto:albert.marrero10@gmail.com"
               icon={MailIcon}
               className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
             >
-              spencer@planetaria.tech
+              albert.marrero10@gmail.com
             </SocialLink>
           </ul>
         </div>

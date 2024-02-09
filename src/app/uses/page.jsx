@@ -50,8 +50,8 @@ export default function Uses() {
           </Tool>
           <Tool title="JavaScript">
             The brains of the operation. The language I use the most. Perfect
-            for building web applications especially when a app doesn't need
-            react.
+            for building web applications especially when a app doesn&apos;t
+            need react.
           </Tool>
           <Tool title="CSS">
             Good ol’ CSS. I still use it for some projects and definitely for
@@ -86,9 +86,9 @@ export default function Uses() {
           </Tool>
           <Tool title="PostgreSQL">
             PostgreSQL is my preferred relational database. With its support for
-            complex queries, transactions, and extensibility, it's a powerful
-            choice for applications of all sizes. Love the open-source nature of
-            it.
+            complex queries, transactions, and extensibility, it&apos;s a
+            powerful choice for applications of all sizes. Love the open-source
+            nature of it.
           </Tool>
           <Tool title="MongoDB">
             MongoDB is my go-to NoSQL database. Its flexible schema,
@@ -104,17 +104,17 @@ export default function Uses() {
             applications.
           </Tool>
           <Tool title="LG 49in UltraWide Dual QHD IPS Curved LED Monitor (LG 49WL95C-W) ">
-            I know it huge but talk about productivity! It's like having two 27
-            inch monitors in one. Highly recommend.
+            I know it huge but talk about productivity! It&apos;s like having
+            two 27 inch monitors in one. Highly recommend.
           </Tool>
           <Tool title="Keychron K2 Wireless Mechanical Keyboard">
-            I love that it's wireless and has a Mac layout. Not much else to
-            say. It’s a keyboard.
+            I love that it&apos;s wireless and has a Mac layout. Not much else
+            to say. It’s a keyboard.
           </Tool>
           <Tool title="Logitech G G502 HERO">
-            I get the best of both worlds with this mouse. It's great for gaming
-            and productivity. I love the customizable button and the scroll
-            wheel.
+            I get the best of both worlds with this mouse. It&apos;s great for
+            gaming and productivity. I love the customizable button and the
+            scroll wheel.
           </Tool>
         </ToolsSection>
         <ToolsSection title="Development tools">

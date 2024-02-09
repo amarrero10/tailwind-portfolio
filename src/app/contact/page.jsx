@@ -172,7 +172,7 @@ export default function Contact() {
             hover:bg-teal-400 focus-visible:outline focus-visible:outline-2
             focus-visible:outline-offset-2 focus-visible:outline-teal-500"
           >
-            Let's talk
+            Let&apos;s talk
           </Button>
         </div>
       </form>

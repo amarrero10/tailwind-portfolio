@@ -2,48 +2,60 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoTerra from '@/images/logos/terragold.png'
+import logoBudget from '@/images/logos/budgetbuddy.png'
+import logoStucco from '@/images/logos/stuccopros.png'
+// import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
+import logoSpring from '@/images/logos/springlogo.png'
 
 const projects = [
   {
-    name: 'Planetaria',
-    description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+    name: 'Spring Health and Wellness',
+    description: 'A weight loss and wellness clinic in Tampa, Florida.',
+    link: {
+      href: 'https://www.springhealthwellness.com/',
+      label: 'springhealthwellness.com',
+    },
+    logo: logoSpring,
   },
   {
-    name: 'Animaginary',
+    name: 'TerraGold Construction Services',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+      'A remodeling and construction company specializing in complete home renovations.',
+    link: {
+      href: 'https://terragoldconstruction.com/',
+      label: 'terragoldconstruction.com',
+    },
+    logo: logoTerra,
   },
   {
-    name: 'HelioStream',
+    name: 'Stucco Pros of Tampa Bay',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
+      'A construction company specializing in stucco and plastering services.',
+    link: {
+      href: 'https://www.stuccoprostampa.com/',
+      label: 'stuccoprostampa.com',
+    },
+    logo: logoStucco,
   },
   {
-    name: 'cosmOS',
+    name: 'Budget Buddy',
     description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
+      'A personal finance web app that helps you track your spending and save money',
+    link: {
+      href: 'https://budgetbuddy-othz.onrender.com/',
+      label: 'budgetbuddy.com',
+    },
+    logo: logoBudget,
   },
-  {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
-  },
+  // TODO BLOG
+  // {
+  //   name: 'OpenShuttle',
+  //   description:
+  //     'The schematics for the first rocket I designed that successfully made it to orbit.',
+  //   link: { href: '#', label: 'github.com' },
+  //   logo: logoOpenShuttle,
+  // },
 ]
 
 function LinkIcon(props) {
@@ -66,7 +78,7 @@ export default function Projects() {
   return (
     <SimpleLayout
       title="Things I’ve made trying to put my dent in the universe."
-      intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+      intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. I love feedback so if you have any thoughts, feel free to reach out with your comments!"
     >
       <ul
         role="list"

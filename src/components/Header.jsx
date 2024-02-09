@@ -73,6 +73,7 @@ function MoonIcon(props) {
 }
 
 function MobileNavItem({ href, children }) {
+  console.log('MobileNavItem', href, children)
   return (
     <li>
       <Popover.Button as={Link} href={href} className="block py-2">
@@ -127,8 +128,8 @@ function MobileNavigation(props) {
                 <MobileNavItem href="/about">About</MobileNavItem>
                 {/* <MobileNavItem href="/articles">Articles</MobileNavItem> */}
                 <MobileNavItem href="/projects">Projects</MobileNavItem>
-                <MobileNavItem href="/speaking">Technology</MobileNavItem>
-                <MobileNavItem href="/uses">Contact</MobileNavItem>
+                <MobileNavItem href="/contact">Contact</MobileNavItem>
+                <MobileNavItem href="/uses">Technology</MobileNavItem>
               </ul>
             </nav>
           </Popover.Panel>
@@ -168,8 +169,8 @@ function DesktopNavigation(props) {
         <NavItem href="/about">About</NavItem>
         {/* <NavItem href="/articles">Articles</NavItem> */}
         <NavItem href="/projects">Projects</NavItem>
-        <NavItem href="/speaking">Technology</NavItem>
-        <NavItem href="/uses">Contact</NavItem>
+        <NavItem href="/contact">Contact</NavItem>
+        <NavItem href="/uses">Technology</NavItem>
       </ul>
     </nav>
   )

@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation'
 import { ThemeProvider, useTheme } from 'next-themes'
 
 function usePrevious(value) {
+  console.log('usePrevious', value)
   let ref = useRef()
 
   useEffect(() => {

@@ -169,10 +169,16 @@ function Resume() {
           <Role key={roleIndex} role={role} />
         ))}
       </ol>
-      <Button href="#" variant="secondary" className="group mt-6 w-full">
-        Download Resume
-        <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-      </Button>
+      <a
+        href="https://docs.google.com/document/d/1k-jmQpeFAp56JhafBL_13jfe56ISSz72iL9myMoJ6o8/edit?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Button variant="secondary" className="group mt-6 w-full">
+          View Resume
+          <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
+        </Button>
+      </a>
     </div>
   )
 }
